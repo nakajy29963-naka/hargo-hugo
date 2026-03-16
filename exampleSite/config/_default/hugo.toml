@@ -1,12 +1,12 @@
 ######################## default configuration ####################
 baseURL = "/"
 languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+title = "jjj_personal_test"
 theme = "hargo-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post pagination
-pagination.pagerSize = 10 # see https://gohugo.io/extras/pagination/
+pagerSize = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 20 # see https://gohugo.io/content-management/excerpts/
 # google analytics
@@ -22,18 +22,18 @@ timeout = "500s"
 ############################# Build ##############################
 [build]
 noJSConfigInAssets = false
-useResourceCacheWhen = 'fallback'
+useResourceCacheWhen = "fallback"
 [build.buildStats]
 enable = true
 [[build.cachebusters]]
-source = 'assets/.*\.(js|ts|jsx|tsx)'
-target = '(js|scripts|javascript)'
+source = "assets/.*\\.(js|ts|jsx|tsx)"
+target = "(js|scripts|javascript)"
 [[build.cachebusters]]
-source = 'assets/.*\.(css|sass|scss)$'
-target = '(css|styles|scss|sass)'
+source = "assets/.*\\.(css|sass|scss)$"
+target = "(css|styles|scss|sass)"
 [[build.cachebusters]]
-source = 'assets/.*\.(.*)$'
-target = '$1'
+source = "assets/.*\\.(.*)$"
+target = "target = "
 
 ############################# Outputs ##############################
 [outputs]
@@ -124,24 +124,24 @@ publicKey = "811cf0927332bf51f2e12f84608594ac"
 # Social Site
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "#"#"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "#"#"
 
 [[params.social]]
 icon = "ti-youtube"
-link = "#"
+link = "#"#"
 
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "#"#"
 
 [[params.social]]
 icon = "ti-pinterest"
-link = "#"
+link = "#"#"
 
 # Contact Form
 [params.contact]
-formAction = "#" # contact form works with formspree.io
+formAction = "#"#" # contact form works with formspree.io
